@@ -2,11 +2,11 @@ body {
     width: 50%;
 }
 
-img[src="image/mobile.jpg"]{
+img[src="../documentation/mobile.jpg"]{
     width: 100%;
 }
 
-img[src="image/desktop.jpg"] {
+img[src="../documentation/desktop.jpg"] {
     border: 3px black solid;
     width: 100%;
 }
