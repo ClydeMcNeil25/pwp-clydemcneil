@@ -10,3 +10,7 @@ img[src="../documentation/desktop.jpg"] {
     border: 3px black solid;
     width: 100%;
 }
+
+p, ol {
+    font-size: 21px;
+}
