@@ -1,5 +1,7 @@
 body {
     width: 50%;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 img[src="../documentation/mobile.jpg"]{
