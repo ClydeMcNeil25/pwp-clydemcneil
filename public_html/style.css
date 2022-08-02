@@ -1,3 +1,4 @@
+/* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-device-width: 768px){
     h1, h2, p {
         font-size: 1vh !important;
