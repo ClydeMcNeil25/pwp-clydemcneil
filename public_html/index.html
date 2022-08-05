@@ -47,7 +47,23 @@
     <!--Graphics Design-->
     <div class="container d-flex justify-content-center py-5">
         <div class="container col-mb-10">
-            <img src="./media/customtees.png" class="img-thumbnail shadow rounded-5 bg-dark" alt="customTees" width="960" height="540">
+            <button type="button" class="btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#graphicsModal">
+                <img src="./media/customtees.png" id="graphics" class="img-thumbnail shadow rounded-5 bg-dark" alt="customTees" width="960" height="540">
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="graphicsModal" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel1">Graphics</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="Graphic Design">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="row-mb-2 lead vstack text-end">
@@ -81,18 +97,20 @@
     <!--UX/UI Design-->
     <div class="container d-flex justify-content-center py-5">
         <div class="container col-mb-10">
-            <img id="customTees" src="./media/customtees.png" class="img-thumbnail shadow rounded-5 bg-dark" alt="customTees" width="960" height="540">
+            <button type="button" class="btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#uxModal">
+                <img src="./media/customtees.png" id="customTees" class="img-thumbnail shadow rounded-5 bg-dark" alt="customTees" width="960" height="540">
+            </button>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="uxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade" id="uxModal" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">UI/UX Design</h5>
+                        <h5 class="modal-title" id="modelLabel2">UI/UX Design</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body p-0">
-                        <img src="./media/ux.png" class="img-thumbnail shadow rounded-5 bg-dark" alt="Custom Tees" width="1920" height="1080">
+                        <img src="./media/ux.png" class="img-thumbnail shadow rounded-5 bg-dark" alt="Custom Tees">
                     </div>
                 </div>
             </div>
@@ -132,7 +150,23 @@
     <!--Web Developer-->
     <div class="container d-flex justify-content-center py-5">
         <div class="container col-mb-10">
-            <img id="coding" src="./media/code.jpg" class="img-thumbnail shadow rounded-5 bg-dark" alt="Coding" width="960" height="540">
+            <button type="button" class="btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#webModal">
+                <img src="./media/customtees.png" id="web" class="img-thumbnail shadow rounded-5 bg-dark" alt="Web Dev Thumb" width="960" height="540">
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel3">Graphics</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="Web Design">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="row-mb-2 lead vstack text-end">
@@ -168,9 +202,10 @@
 
     <!--Motion Graphics-->
     <div class="container d-flex justify-content-center py-5">
-        <div class="container col-mb-10 ratio ratio-16by9">
-            <iframe src="https://www.youtube.com/embed/5obInUtggvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+            <div class="col-mb-10 w-100">
+                <iframe class="w-100 h-100 img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
         <div class="container">
             <div class="row-mb-2 lead vstack text-end">
                 <div class="col">
@@ -205,9 +240,8 @@
 
     <!--Audio Production-->
     <div class="container d-flex justify-content-center py-5">
-        <div class="col-mb-10 ratio ratio-16by9">
-            <iframe src="https://www.youtube.com/embed/uMKk1v3NLuk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
-
+        <div class="col-mb-10 w-100">
+            <iframe class="w-100 h-100 img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/uMKk1v3NLuk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
             </iframe>
         </div>
         <div class="container">

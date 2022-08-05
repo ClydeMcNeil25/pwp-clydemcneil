@@ -10,3 +10,9 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
+
+div div button {
+    padding: 0;
+    border: none;
+    background: none;
+}
