@@ -23,7 +23,7 @@
 
 <!--Hero Image-->
     <section class="hero-img">
-                    <img src="./media/cmc.png" class="img-fluid" alt="clyde" width=100%>
+                    <img src="./media/cmc.png" class="img-fluid" alt="clyde">
     </section>
 
 <!--About Me-->
@@ -336,20 +336,20 @@
                     </button>
                 </div>
                 <!-- Motion Graphics Modal -->
-                <div class="modal fade" id="motionModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
-                    <div class="modal-dialog modal-fullscreen">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="motionLabel1">Hall Insurance Commercial</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body p-0">
-                                <iframe width="560" height="315" class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
+                    <div class="modal fade" id="motionModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="motionLabel1">Hall Insurance Commercial</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body p-0">
+                                    <iframe width="560" height="315" class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="col-md-6 lead vstack text-center p-3">
                     <div class="col">
                         <h2>MOTION GRAPHICS</h2>
@@ -387,8 +387,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <iframe class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/uMKk1v3NLuk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+                    <button type="button" class="btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#audioModal1">
+                        <img src="./media/darkwaters.png" id="audio" class="img-thumbnail shadow rounded-5 bg-dark" alt="Motion Pro Thumb" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Audio Production Modal -->
+                <div class="modal fade" id="audioModal1" tabindex="-1" aria-labelledby="audioLabel1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="audioLabel1">"Dark Waters" Produced by Clyde McNeil</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body p-0">
+                                <iframe width="560" height="315" class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/uMKk1v3NLuk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 lead vstack text-center p-3">
                     <div class="col">
@@ -421,12 +437,75 @@
     </div>
 </section>
 
-<!--Contact Email Form-->
-<section class="contact-form" id="contact-me">
-        <div class="container-fluid bg-dark lead text-white d-flex justify-content-center">
-            <a href="mailto:clyde.mcneil.25@gmail.com" target="top">CLICK HERE TO SEND EMAIL
-            </a>
+<hr class="container">
+
+    <!-- Soft Skills/Education/Certifications -->
+<section class="softeducert py-5">
+    <div class="container">
+        <div class="row lead text-center">
+            <div class="softeducert-sec col-md-4 mb-3 vstack align-middle border border-3 border-dark rounded-5">
+                <h3 class="softeducert-title bg-dark text-white border border-3 border-dark mt-3 rounded-pill">SOFT SKILLS</h3>
+                    <p>Problem Solver</p>
+                    <p>Attention to Detail</p>
+                    <p>Resourceful</p>
+                    <p>Adaptive</p>
+                    <p>Team Player</p>
+                    <p>Empathy</p>
+                    <p>Social Skills</p>
+            </div>
+            <div class="softeducert-sec col-md-4 mb-3 vstack align-middle border border-3 border-dark rounded-5">
+                <h3 class="softeducert-title bg-dark text-white border border-3 border-dark mt-3 rounded-pill">EDUCATION</h3>
+                    <strong>Bachelor in Science/Computer Science</strong>
+                    <p>Southwestern College</p>
+                    <p>11/2021</p>
+                    <strong>Associate in Applied Science/Mechanical and Electrical Technology</strong>
+                    <p>Community College of the Air Force</p>
+                    <p>03/2018</p>
+            </div>
+            <div class="softeducert-sec col-md-4 mb-3 vstack align-middle border border-3 border-dark rounded-5">
+                <h3 class="softeducert-title bg-dark text-white border border-3 border-dark mt-3 rounded-pill">CERTIFICATIONS</h3>
+                    <p>Deep Dive Full Stack Web Developer</p>
+                    <p>Google UX Design</p>
+                    <p>Meta Certified Digital Marketing</p>
+                    <p>Cal Arts Graphic Design</p>
+                    <p>Introduction to Adobe Photoshop Tools Vol. 1 & 2</p>
+                    <p>Get Started with Adobe Illustrator</p>
+                    <p>Certified Data Center Management Professional</p>
+            </div>
         </div>
+    </div>
+</section>
+
+<!--Contact Email Form-->
+<section class="contact-form bg-dark lead text-white py-5 lead" id="contact-me">
+    <form>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname"/>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname"/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"/>
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject"/>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 character max."></textarea>
+        </div>
+        <div class="container-fluid bg-dark lead text-white d-flex justify-content-center">
+            <button type="submit">
+                <a href="mailto:clyde.mcneil.25@gmail.com" target="top">Send
+                </a>
+            </button>
+        </div>
+    </form>
 </section>
 
 <!--Let's Connect Graphic Image-->
