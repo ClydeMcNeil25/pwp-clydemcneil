@@ -24,31 +24,31 @@ div div button {
 
 /* Audio Production */
 
-.form-wrapper h2 {
-    text-align: left;
-    margin: 1px;
-    margin-bottom: 10px;
-}
-form {
+/*.form-wrapper h2 {*/
+/*    text-align: left;*/
+/*    margin: 1px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*form {*/
 
-    table-layout: auto;
-    padding: 20px;
+/*    table-layout: auto;*/
+/*    padding: 20px;*/
 
-}
-form div label {
-    display: flex;
-    align-content: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-textarea {
-    text-indent: 15px;
-}
-button {
+/*}*/
+/*form div label {*/
+/*    display: flex;*/
+/*    align-content: center;*/
+/*    margin-bottom: 5px;*/
+/*    margin-top: 5px;*/
+/*}*/
+/*textarea {*/
+/*    text-indent: 15px;*/
+/*}*/
+/*button {*/
 
-    border: 1px black solid;
-    width: 75px;
-    height: 25px;
-    margin-top: 5px;
-    font-size: 10px;
-}
+/*    border: 1px black solid;*/
+/*    width: 75px;*/
+/*    height: 25px;*/
+/*    margin-top: 5px;*/
+/*    font-size: 10px;*/
+/*}*/
