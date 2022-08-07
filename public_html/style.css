@@ -1,10 +1,32 @@
 /* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-width: 768px) {
-    .nav-link, h3, p, strong, ul, li .about-para .container-fluid {
-        font-size: 2vh !important;
+    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
+        font-size: calc(16px + 1vh); !important;
         margin: 0 !important;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
+        font-size: calc(16px + 1vh); !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
+        font-size: calc(16px + 1vh); !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
+        font-size: calc(16px + 1vh); !important;
+        margin: 0 !important;
+    }
+}
+
 
 div div button {
     padding: 0;
@@ -17,5 +39,3 @@ div div button {
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
-
-/* Motion Graphics and Audio Production YouTube Video Properties */
