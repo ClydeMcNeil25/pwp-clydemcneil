@@ -10,7 +10,7 @@
     <body>
 
 <!--Navigation Bar-->
-<nav class="navbar bg-dark shadow-lg lead text-white">
+<nav class="navbar bg-dark lead shadow-lg text-white">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="./media/cmc2.png" alt="" width="80" height="80">
@@ -22,8 +22,8 @@
 </nav>
 
 <!--Hero Image-->
-    <section class="hero-img">
-                    <img src="./media/cmc.png" class="img-fluid" alt="clyde">
+    <section class="hero-img bg-dark">
+                    <img src="./media/cmc.png" class="img-fluid shadow-lg w-100" alt="clyde">
     </section>
 
 <!--About Me-->
@@ -51,15 +51,15 @@
                 <!-- Twitch Emote Modal -->
                 <div class="modal fade" id="graphicsModal1" tabindex="-1" aria-labelledby="graphicsLabel1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                 <h5 class="modal-title" id="graphicsLabel1">Twitch Emotes</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body p-0">
-                                <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="Twitch-Emotes">
+                            <div class="modal-body">
+                                <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="Twitch-Emotes">
                             </div>
-                            <div class="modal-footer">
+                            <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
                                 <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Logos</button>
                             </div>
                         </div>
@@ -68,15 +68,16 @@
                 <!-- Logo Modal -->
                 <div class="modal fade" id="graphicsModal2" tabindex="-1" aria-labelledby="graphicsLabel2" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                 <h5 class="modal-title" id="graphicsLabel2">Logo Design</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body p-0">
-                                <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="Logos">
+                            <div class="modal-body">
+                                <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="Logos">
                             </div>
-                            <div class="modal-footer">
+                            <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal1" data-bs-toggle="modal">Previous</button>
                                 <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Comics</button>
                             </div>
                         </div>
@@ -85,15 +86,16 @@
                 <!-- Comic Modal -->
                 <div class="modal fade" id="graphicsModal3" tabindex="-1" aria-labelledby="graphicsLabel3" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                 <h5 class="modal-title" id="graphicsLabel3">Comics</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body p-0">
-                                <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="Comics">
+                            <div class="modal-body">
+                                <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="Comics">
                             </div>
-                            <div class="modal-footer">
+                            <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Previous</button>
                                 <button class="btn btn-dark" data-bs-target="#graphicsModal4" data-bs-toggle="modal">3D</button>
                             </div>
                         </div>
@@ -102,16 +104,16 @@
                 <!-- 3D Design Modal -->
                 <div class="modal fade" id="graphicsModal4" tabindex="-1" aria-labelledby="graphicsLabel4" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border-dark bg-white rounded-pill mb-5">
                                 <h5 class="modal-title" id="graphicsLabel4">3D Sculpting</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body p-0">
-                                <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="3D Sculpting">
+                            <div class="modal-body">
+                                <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="3D Sculpting">
                             </div>
-                            <div class="modal-footer">
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal1" data-bs-toggle="modal">Emotes</button>
+                            <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Previous</button>
                             </div>
                         </div>
                     </div>
@@ -158,13 +160,16 @@
                     <!-- UX/UI Modal -->
                     <div class="modal fade" id="uxModal" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modelLabel2">UI/UX Design</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="./media/ux.png" class="img-thumbnail shadow rounded-5 bg-dark" alt="Custom Tees">
+                                <div class="modal-body">
+                                    <img src="./media/ux.png" class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="Custom Tees">
+                                </div>
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                    <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -210,34 +215,37 @@
                         <img src="./media/coding.png" id="web" class="img-thumbnail shadow rounded-5 bg-dark" alt="Web Dev Thumb" width="960" height="540">
                     </button>
                 </div>
-                    <!-- Modal -->
+                    <!-- Web Developer Modal -->
+                    <!-- Mobile Wireframe Modal -->
                     <div class="modal fade" id="webModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modalLabel1">Mobile Wireframe</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="./documentation/mobile.jpg" class="img-thumbnail shadow rounded-5 bg-dark" alt="HTML">
+                                <div class="modal-body">
+                                    <img src="./documentation/mobile.jpg" class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="HTML">
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
                                     <button class="btn btn-dark" data-bs-target="#webModal2" data-bs-toggle="modal">Desktop Wireframe</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Desktop Wireframe Modal -->
                     <div class="modal fade" id="webModal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modalLabel2">Desktop Wireframe</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="./documentation/desktop.jpg" class="img-thumbnail shadow rounded-5 bg-dark" alt="HTML">
+                                <div class="modal-body">
+                                    <img src="./documentation/desktop.jpg" class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="HTML">
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                    <button class="btn btn-dark" data-bs-target="#webModal1" data-bs-toggle="modal">Previous</button>
                                     <button class="btn btn-dark" data-bs-target="#webModal3" data-bs-toggle="modal">HTML</button>
                                 </div>
                             </div>
@@ -246,15 +254,16 @@
                     <!-- HTML & BootStrap Modal -->
                     <div class="modal fade" id="webModal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modalLabel3">HTML & Bootstrap for this Portfolio</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="HTML">
+                                <div class="modal-body">
+                                    <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="HTML">
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                    <button class="btn btn-dark" data-bs-target="#webModal2" data-bs-toggle="modal">Previous</button>
                                     <button class="btn btn-dark" data-bs-target="#webModal4" data-bs-toggle="modal">CSS</button>
                                 </div>
                             </div>
@@ -263,15 +272,16 @@
                     <!-- CSS Modal -->
                     <div class="modal fade" id="webModal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modalLabel4">CSS for this Portfolio</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="CSS">
+                                <div class="modal-body">
+                                    <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="CSS">
                                 </div>
-                                <div class="modal-footer">
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                    <button class="btn btn-dark" data-bs-target="#webModal3" data-bs-toggle="modal">Previous</button>
                                     <button class="btn btn-dark" data-bs-target="#webModal5" data-bs-toggle="modal">JavaScript </button>
                                 </div>
                             </div>
@@ -280,16 +290,16 @@
                     <!-- JavaScript Modal -->
                     <div class="modal fade" id="webModal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="modalLabel5">JavaScript for this Portfolio</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <img src="..." class="img-thumbnail shadow rounded-5 bg-dark" alt="JavaScript">
+                                <div class="modal-body">
+                                    <img src="..." class="img-thumbnail border-0 shadow-lg rounded-5 bg-dark" alt="JavaScript">
                                 </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-dark" data-bs-target="#webModal1" data-bs-toggle="modal">Mobile Wireframe</button>
+                                <div class="modal-footer border border-dark bg-white rounded-pill mt-5">
+                                    <button class="btn btn-dark" data-bs-target="#webModal4" data-bs-toggle="modal">Previous</button>
                                 </div>
                             </div>
                         </div>
@@ -338,13 +348,13 @@
                 <!-- Motion Graphics Modal -->
                     <div class="modal fade" id="motionModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
+                            <div class="modal-content border-0 bg-transparent">
+                                <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                     <h5 class="modal-title" id="motionLabel1">Hall Insurance Commercial</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body p-0">
-                                    <iframe width="560" height="315" class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                <div class="modal-body ratio ratio-16x9 text-center">
+                                    <iframe id="myVideo1" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                     </iframe>
                                 </div>
                             </div>
@@ -394,13 +404,13 @@
                 <!-- Audio Production Modal -->
                 <div class="modal fade" id="audioModal1" tabindex="-1" aria-labelledby="audioLabel1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border border-dark bg-white rounded-pill mb-5">
                                 <h5 class="modal-title" id="audioLabel1">"Dark Waters" Produced by Clyde McNeil</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body p-0">
-                                <iframe width="560" height="315" class="img-thumbnail shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/uMKk1v3NLuk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            <div class="modal-body ratio ratio-16x9 text-center">
+                                <iframe class="shadow-lg rounded-5" src="https://www.youtube.com/embed/uMKk1v3NLuk?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                 </iframe>
                             </div>
                         </div>
