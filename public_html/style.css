@@ -1,14 +1,14 @@
 /* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-width: 768px) {
     .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(16px + 1vh); !important;
+        font-size: calc(10px + 1vh); !important;
         margin: 0 !important;
     }
 }
 
 @media screen and (max-width: 992px) {
     .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(16px + 1vh); !important;
+        font-size: calc(10px + 1vh); !important;
         margin: 0 !important;
     }
 }
@@ -38,4 +38,19 @@ div div button {
 .about-me, .softeducert-title {
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.contact-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.created-by {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.card {
+    max-width: 18rem;
 }
