@@ -1,32 +1,10 @@
 /* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-width: 768px) {
     .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(10px + 1vh); !important;
+        font-size: calc(12px + 1vh); !important;
         margin: 0 !important;
     }
 }
-
-@media screen and (max-width: 992px) {
-    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(10px + 1vh); !important;
-        margin: 0 !important;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(16px + 1vh); !important;
-        margin: 0 !important;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
-        font-size: calc(16px + 1vh); !important;
-        margin: 0 !important;
-    }
-}
-
 
 div div button {
     padding: 0;
@@ -42,4 +20,11 @@ div div button {
 
 .card {
     max-width: 18rem;
+}
+
+.contact-form {
+    background-image: url("./media/signature.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
