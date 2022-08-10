@@ -1,6 +1,6 @@
 /* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-width: 768px) {
-    .nav-link, h1, h2, h3, p, strong, ul, li .about-para .container-fluid img {
+    .nav-link, h1, h2, h3, H4, p, strong, ul, li .about-para .container-fluid img {
         font-size: calc(12px + 1vh); !important;
         margin: 0 !important;
     }
