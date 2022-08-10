@@ -1,6 +1,6 @@
 /* This affects the text in "About Me" & "Portfolio" sections for mobile view mode*/
 @media screen and (max-width: 768px) {
-    .nav-link, h1, h2, h3, H4, p, strong, ul, li .about-para .container-fluid img {
+    .nav-link, h1, h2, h3, H4, p, strong, dd, ul, li .about-para .container-fluid img {
         font-size: calc(12px + 1vh); !important;
         margin: 0 !important;
     }
@@ -18,21 +18,56 @@ div div button {
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 
+.about-me {
+    background-image: linear-gradient(
+            45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(252deg 100% 20%) 10%,
+            hsl(260deg 100% 20%) 20%,
+            hsl(265deg 100% 20%) 30%,
+            hsl(270deg 100% 20%) 40%,
+            hsl(274deg 100% 20%) 50%,
+            hsl(286deg 100% 20%) 60%,
+            hsl(297deg 100% 20%) 70%,
+            hsl(307deg 100% 23%) 80%,
+            hsl(314deg 100% 26%) 90%,
+            hsl(319deg 100% 29%) 100%
+    );
+}
+
+.navbar {
+    background-image: linear-gradient(
+            45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(252deg 100% 20%) 10%,
+            hsl(260deg 100% 20%) 20%,
+            hsl(265deg 100% 20%) 30%,
+            hsl(270deg 100% 20%) 40%,
+            hsl(274deg 100% 20%) 50%,
+            hsl(286deg 100% 20%) 60%,
+            hsl(297deg 100% 20%) 70%,
+            hsl(307deg 100% 23%) 80%,
+            hsl(314deg 100% 26%) 90%,
+            hsl(319deg 100% 29%) 100%
+    );
+}
+
 /* Card Properties in SOFTEDUCERT Section */
 .card {
     max-width: 18rem;
     background-image: linear-gradient(
-                    45deg,
-                    hsl(240deg 100% 20%) 0%,
-                    hsl(257deg 98% 24%) 11%,
-                    hsl(264deg 96% 28%) 22%,
-                    hsl(270deg 93% 31%) 33%,
-                    hsl(275deg 91% 35%) 44%,
-                    hsl(279deg 90% 39%) 56%,
-                    hsl(283deg 90% 43%) 67%,
-                    hsl(287deg 92% 46%) 78%,
-                    hsl(291deg 95% 48%) 89%,
-                    hsl(294deg 100% 50%) 100%
+            45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(252deg 100% 20%) 10%,
+            hsl(260deg 100% 20%) 20%,
+            hsl(265deg 100% 20%) 30%,
+            hsl(270deg 100% 20%) 40%,
+            hsl(274deg 100% 20%) 50%,
+            hsl(286deg 100% 20%) 60%,
+            hsl(297deg 100% 20%) 70%,
+            hsl(307deg 100% 23%) 80%,
+            hsl(314deg 100% 26%) 90%,
+            hsl(319deg 100% 29%) 100%
     );
 }
 
