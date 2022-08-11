@@ -11,16 +11,71 @@ div div button {
     border: none;
     background: none;
 }
-
 /* Hero Image Parallax Effect */
+header {
+    min-height: 60em;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
 
+.images {
+    height: 100vh;
+    overflow: hidden;
+}
 
+.images img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    transition: 0.1s;
+}
+
+.about-me {
+    position: relative;
+    z-index: 8;
+}
+#foreground {
+    z-index: 2;
+}
+#midground {
+    z-index: 1;
+}
+#background {
+    z-index: 0;
+}
+header::before {
+    content: '';
+    background: linear-gradient(
+    0deg, #000, rgba(0, 0, 0, 0)
+    );
+    width: 100%;
+    height:20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+.title {
+    font-size: 6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:
+        translate(-50%, -50%);
+    z-index: 8;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+}
 /* About Me Section Properties */
 .about-me, .softeducert-title {
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
-
 /* Gradient Effect for the respective elements listed below */
 .about-me, .navbar, .card, .submit-button {
     background-image: linear-gradient(
@@ -59,7 +114,6 @@ a.nav-link:hover {
     position: relative;
     overflow: hidden;
 }
-
 .img-wrapper > .thumb img {
     display: block;
     width: 100%;
@@ -67,31 +121,28 @@ a.nav-link:hover {
     object-fit: cover;
     object-position: center;
 }
-
 .img-wrapper > .thumb.content {
     position: absolute;
     inset: 0;
     font-size: 2rem;
     padding: 1rem;
     background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .img-wrapper > .thumb img, .img-wrapper > .thumb.content {
     transition: 200ms ease-in-out;
 }
-
 .img-wrapper:hover > .thumb img.blur {
     filter: blur(5px);
 }
-
 .img-wrapper:hover > .thumb img.zoom {
     transform: scale(1.1);
 }
-
 .img-wrapper:hover > .thumb.content.fade {
     opacity: 0;
 }
-
 .img-wrapper:hover > .thumb.content.fade {
     opacity: 1;
 }
