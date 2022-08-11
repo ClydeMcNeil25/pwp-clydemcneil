@@ -5,7 +5,7 @@
         margin: 0 !important;
     }
 }
-
+/* Properties for all of the buttons */
 div div button {
     padding: 0;
     border: none;
@@ -13,7 +13,6 @@ div div button {
 }
 
 /* Hero Image Parallax Effect */
-/* Positioning of the images */
 
 
 /* About Me Section Properties */
@@ -43,11 +42,15 @@ div div button {
 .card {
     max-width: 18rem;
 }
-
 /* Contact Form */
 .contact-form {
     background-image: url("./media/signature.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+/* Hover Effect for NavBar */
+a.nav-link:hover {
+    background: white;
+    color: black;
 }
