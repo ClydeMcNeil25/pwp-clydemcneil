@@ -13,3 +13,16 @@ function autoPlayYouTubeModal() {
     });
   });
 }
+
+//Parallax Effect
+let bg = document.getElementsByClassName("background");
+let mg = document.getElementsByClassName('midground');
+let fg = document.getElementsByClassName('foreground');
+
+window.addEventListener('scroll', function(){
+  let value = window.scrollY;
+
+  bg.style.top = value * 0.15 + 'px';
+  // mg.style.top = value * 0.25 + 'px';
+  // fg.style.top = value * 0.5 + 'px';
+});

@@ -12,12 +12,15 @@ div div button {
     background: none;
 }
 
+/* Hero Image Parallax Effect */
+/* Positioning of the images */
+
+
 /* About Me Section Properties */
 .about-me, .softeducert-title {
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
-
 .about-me {
     background-image: linear-gradient(
             45deg,
@@ -34,7 +37,6 @@ div div button {
             hsl(319deg 100% 29%) 100%
     );
 }
-
 .navbar {
     background-image: linear-gradient(
             45deg,
@@ -51,7 +53,6 @@ div div button {
             hsl(319deg 100% 29%) 100%
     );
 }
-
 /* Card Properties in SOFTEDUCERT Section */
 .card {
     max-width: 18rem;
@@ -70,10 +71,25 @@ div div button {
             hsl(319deg 100% 29%) 100%
     );
 }
-
 .contact-form {
     background-image: url("./media/signature.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.submit-button {
+    background-image: linear-gradient(
+            45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(252deg 100% 20%) 10%,
+            hsl(260deg 100% 20%) 20%,
+            hsl(265deg 100% 20%) 30%,
+            hsl(270deg 100% 20%) 40%,
+            hsl(274deg 100% 20%) 50%,
+            hsl(286deg 100% 20%) 60%,
+            hsl(297deg 100% 20%) 70%,
+            hsl(307deg 100% 23%) 80%,
+            hsl(314deg 100% 26%) 90%,
+            hsl(319deg 100% 29%) 100%
+    );
 }
