@@ -55,20 +55,20 @@ a.nav-link:hover {
     color: black;
 }
 /* Hover Effect for Thumbnails in Portfolio */
-.img-wrapper {
+.img-wrapper.thumb {
     position: relative;
     overflow: hidden;
 }
 
-.img-wrapper > img {
+.img-wrapper > .thumb img {
     display: block;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     object-position: center;
 }
 
-.img-wrapper > .content {
+.img-wrapper > .thumb.content {
     position: absolute;
     inset: 0;
     font-size: 2rem;
@@ -76,22 +76,22 @@ a.nav-link:hover {
     background: rgba(255, 255, 255, .4);
 }
 
-.img-wrapper > img, .img-wrapper > .content {
-    transition: 200ms eas-in-out;
+.img-wrapper > .thumb img, .img-wrapper > .thumb.content {
+    transition: 200ms ease-in-out;
 }
 
-.img-wrapper:hover > img.blur {
+.img-wrapper:hover > .thumb img.blur {
     filter: blur(5px);
 }
 
-.img-wrapper:hover > img.zoom {
+.img-wrapper:hover > .thumb img.zoom {
     transform: scale(1.1);
 }
 
-.img-wrapper:hover > .content.fade {
+.img-wrapper:hover > .thumb.content.fade {
     opacity: 0;
 }
 
-.img-wrapper:hover > .content.fade {
+.img-wrapper:hover > .thumb.content.fade {
     opacity: 1;
 }
