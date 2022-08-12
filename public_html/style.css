@@ -11,9 +11,6 @@ div div button {
     border: none;
     background: none;
 }
-.modal-header.btn-close {
-    color: red;
-}
 /* Hero Image Parallax Effect */
 header {
     min-height: 60em;
