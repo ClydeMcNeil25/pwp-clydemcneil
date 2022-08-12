@@ -5,18 +5,27 @@
         margin: 0 !important;
     }
 }
+@media screen and (max-width: 768px) {
+    header .title {
+        font-size: calc(50px + 1vh); !important;
+        margin: 0 !important;
+    }
+}
+
 /* Properties for all of the buttons */
 div div button {
     padding: 0;
     border: none;
     background: none;
 }
+
 /* Hero Image Parallax Effect */
 header {
     min-height: 60em;
     height: 60vh;
     overflow: hidden;
     position: relative;
+    transform-style: preserve-3d;
 }
 .modal-header, .modal-footer {
     color: white;
@@ -95,10 +104,12 @@ header::before {
             hsl(319deg 100% 29%) 100%
     );
 }
+
 /* Card Properties in SOFTEDUCERT Section */
 .card {
     max-width: 18rem;
 }
+
 /* Contact Form */
 .contact-form {
     background-image: url("./media/signature.png");
@@ -106,6 +117,7 @@ header::before {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 /* Hover Effect for NavBar */
 a.nav-link:hover {
     background: white;
