@@ -9,14 +9,19 @@
 </head>
     <body>
     <!--Navigation Bar-->
-    <nav class="navbar bg-dark lead text-white">
+    <nav class="navbar navbar-expand-lg sticky-top lead p-0 m-0">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./media/cmc2.png" class="d-flex justify-content-start" alt="" width="60" height="60">
-            </a>
-            <a class="nav-link active p-1 rounded rounded-4" aria-current="page" href="#about-me">About Me</a>
-            <a class="nav-link p-1 rounded rounded-4" href="#portfolio">Portfolio</a>
-            <a class="nav-link p-1 rounded rounded-4" href="#contact-me">Contact</a>
+            <a class="navbar-brand" href="#"><img src="./media/cmc2logo.png" class="d-flex justify-content-start" alt="" width="100" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="drop">
+                    <a class="nav-link p-1 rounded rounded-4 me-5" href="#about-me">About Me</a>
+                    <a class="nav-link p-1 rounded rounded-4 me-5" href="#portfolio">My Works</a>
+                    <a class="nav-link p-1 rounded rounded-4" href="#contact-me">Contact</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -131,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 lead vstack text-center">
+                    <div class="col-md-6 lead vstack text-center" id="info">
                         <p>
                             <dd>
                                 <h3>Artist | Typographer</h3>
