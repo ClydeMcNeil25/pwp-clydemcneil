@@ -96,7 +96,7 @@ header::before {
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 /* Gradient Effect for the respective elements listed below */
-.about-me, .navbar, .card, li.list-group-item, .submit-button, .modal-header, .modal-footer {
+.about-me, .navbar, .card, li.list-group-item, .submit-button, .modal-header, .modal-footer, .resume-button {
     background-image: linear-gradient(
             45deg,
             hsl(240deg 100% 20%) 0%,
@@ -154,4 +154,40 @@ a.nav-link:hover {
 }
 .img-wrapper:hover > .thumb img.zoom {
     transform: scale(1.05);
+}
+
+/* Hover Effect for Resume and Submit Buttons */
+.resume-button:hover {
+    background: linear-gradient(45deg, #070066, #E70066);
+}
+.submit-button:hover {
+    background: linear-gradient(45deg, #070066, #E70066);
+}
+
+/* Hover Effect for Social Button/Image Links */
+/*.socials {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.socials > .socials img {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    aspect-ratio: 1/1;*/
+/*    object-fit: cover;*/
+/*    object-position: center;*/
+/*}*/
+/*.socials > .socials img {*/
+/*    transition: 200ms ease-in-out;*/
+/*}*/
+/*.socials:hover > .socials a.zoom {*/
+/*    transform: scale(2);*/
+/*}*/
+
+.socials .img:hover {
+    -webkit-transform:
+            scale(1.5)
+            rotate(0.01deg);
+    transform:
+            scale(1.8)
+            rotate(0.01deg);
 }

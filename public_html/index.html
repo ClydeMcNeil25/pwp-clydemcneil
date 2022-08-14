@@ -227,38 +227,56 @@
             <div class="container">
                 <div class="row">
                     <div class="img-wrapper col-md-6">
-                        <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#webModal1">
+                        <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#webModal0">
                             <img src="./media/web.png" id="web" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Web Dev Thumb" width="960" height="540">
                         </button>
                     </div>
                         <!-- Web Developer Modal -->
-                        <!-- Mobile Wireframe Modal -->
-                        <div class="modal fade" id="webModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+                        <!-- Personal Webpage Breakdown -->
+                        <div class="modal fade" id="webModal0" tabindex="-1" aria-labelledby="modalLabel0" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content border-0 bg-transparent">
                                     <div class="modal-header rounded-pill mb-5 border-0">
-                                        <h5 class="modal-title" id="modalLabel1">Mobile Wireframe</h5>
+                                        <h5 class="modal-title" id="modalLabel0">PWP Breakdown</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="./documentation/mobile.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                                        <img src="./media/breakdown.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
                                     </div>
                                     <div class="modal-footer border-0 rounded-pill mt-5">
-                                        <button class="btn btn-dark" data-bs-target="#webModal2" data-bs-toggle="modal">Desktop Wireframe</button>
+                                        <button class="btn btn-dark" data-bs-target="#webModal1" data-bs-toggle="modal">Milestone One</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Desktop Wireframe Modal -->
+                        <!-- Milestone One Modal -->
+                        <div class="modal fade" id="webModal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content border-0 bg-transparent">
+                                    <div class="modal-header rounded-pill mb-5 border-0">
+                                        <h5 class="modal-title" id="modalLabel1">Milestone One</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./media/milestone1.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                                    </div>
+                                    <div class="modal-footer border-0 rounded-pill mt-5">
+                                        <button class="btn btn-dark" data-bs-target="#webModal0" data-bs-toggle="modal">Previous</button>
+                                        <button class="btn btn-dark" data-bs-target="#webModal2" data-bs-toggle="modal">Milestone Two</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Milestone Two Modal -->
                         <div class="modal fade" id="webModal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content border-0 bg-transparent">
                                     <div class="modal-header rounded-pill mb-5 border-0">
-                                        <h5 class="modal-title" id="modalLabel2">Desktop Wireframe</h5>
+                                        <h5 class="modal-title" id="modalLabel2">Milestone Two</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="./documentation/desktop.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                                        <img src="./media/milestone2.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
                                     </div>
                                     <div class="modal-footer border-0 rounded-pill mt-5">
                                         <button class="btn btn-dark" data-bs-target="#webModal1" data-bs-toggle="modal">Previous</button>
@@ -505,7 +523,7 @@
                                 <br>
                                 Social Skills
                                 <br>
-                                Honest
+                                Imaginative
                                 <br>
                                 Resilient
                                 <br>
@@ -557,6 +575,27 @@
         </div>
     </section>
 
+        <div class="container-fluid lead d-flex justify-content-center col-md-12 py-5">
+            <button type="button" class="resume-button zoom lead rounded border border-dark text-white p-2" data-bs-toggle="modal" data-bs-target="#resumeModal">My Resume
+            </button>
+        </div>
+        <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 bg-transparent">
+                    <div class="modal-header rounded-pill mb-5 border-0">
+                        <h5 class="modal-title" id="resumeLabel">My Resume</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./media/resume.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                    </div>
+                    <div class="modal-footer border-0 rounded-pill mt-5">
+                        <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <!--Contact Email Form-->
     <section class="contact-form bg-dark lead text-white p-4 lead" id="contact-me">
         <!-- Contact Title -->
@@ -603,18 +642,18 @@
             </div>
             <!-- Submit Button -->
             <div class="container-fluid lead d-flex justify-content-center">
-                <button class="submit-button rounded border border-white text-white" type="submit">Submit</button>
+                <button class="submit-button zoom rounded border border-white text-white" type="submit">Submit</button>
             </div>
             <br>
         </form>
         <!-- Social Site Image Links -->
         <div class="socials text-center">
-            <a href="https://www.artstation.com/malymal"><img src="./media/artstation.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
-            <a href="https://twitter.com/MALYMAL25"><img src="./media/twitter.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
-            <a href="https://www.linkedin.com/in/clydemcneil/"><img src="./media/linkedin.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
-            <a href="https://github.com/ClydeMcNeil25"><img src="./media/github.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
-            <a href="https://www.fiverr.com/share/QwedQe"><img src="./media/fiverr.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
-            <a href="https://www.behance.net/clydemcneil"><img src="./media/behance.png" class="shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://www.artstation.com/malymal"><img src="./media/artstation.png" class="img me-1 shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://twitter.com/MALYMAL25"><img src="./media/twitter.png" class="img mx-1 shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://www.linkedin.com/in/clydemcneil/"><img src="./media/linkedin.png" class="img mx-1 shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://github.com/ClydeMcNeil25"><img src="./media/github.png" class="img mx-1 shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://www.fiverr.com/share/QwedQe"><img src="./media/fiverr.png" class="img mx-1 shaddow-lg" alt="github" width="40" height="40"></a>
+            <a href="https://www.behance.net/clydemcneil"><img src="./media/behance.png" class="img mx-1 shaddow-lg" alt="github" width="40" height="40"></a>
         </div>
     </section>
 
