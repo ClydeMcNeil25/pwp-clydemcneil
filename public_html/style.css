@@ -39,23 +39,32 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    height: 120%;
+    height: 130%;
     object-fit: cover;
 }
 
 .about-me {
     position: relative;
-    z-index: 8;
+    z-index: 6;
 }
 #foreground {
-    z-index: 2;
+    z-index: 5;
 }
 #midground {
+    z-index: 4;
+}
+#background {
+    z-index: 3;
+}
+#farground {
+    z-index: 2;
+}
+#moon {
     z-index: 1;
 }
-/*#background {*/
-/*    z-index: 0;*/
-/*}*/
+#stars {
+    z-index: 0;
+}
 header::before {
     content: '';
     background: linear-gradient(
@@ -137,31 +146,12 @@ a.nav-link:hover {
     object-fit: cover;
     object-position: center;
 }
-.img-wrapper > .thumb.content {
-    position: absolute;
-    inset: 0;
-    font-size: 2rem;
-    padding: 1rem;
-    background: rgba(255, 255, 255, .4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 100%;
-    height: 100%;
-}
-.img-wrapper > .thumb img, .img-wrapper > .thumb.content {
+.img-wrapper > .thumb img, .img-wrapper > .content-thumb {
     transition: 200ms ease-in-out;
 }
 .img-wrapper:hover > .thumb img.blur {
     filter: blur(5px);
 }
 .img-wrapper:hover > .thumb img.zoom {
-    transform: scale(1.1);
-}
-.img-wrapper:hover > .thumb.content.fade {
-    opacity: 0;
-}
-.img-wrapper:hover > .thumb.content.fade {
-    opacity: 1;
+    transform: scale(1.05);
 }
