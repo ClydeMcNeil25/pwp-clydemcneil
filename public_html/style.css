@@ -157,37 +157,24 @@ a.nav-link:hover {
 }
 
 /* Hover Effect for Resume and Submit Buttons */
+.resume-button, .submit-button {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+}
 .resume-button:hover {
     background: linear-gradient(45deg, #070066, #E70066);
 }
 .submit-button:hover {
+    transition-duration: 2s;
     background: linear-gradient(45deg, #070066, #E70066);
 }
 
 /* Hover Effect for Social Button/Image Links */
-/*.socials {*/
-/*    position: relative;*/
-/*    overflow: hidden;*/
-/*}*/
-/*.socials > .socials img {*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    aspect-ratio: 1/1;*/
-/*    object-fit: cover;*/
-/*    object-position: center;*/
-/*}*/
-/*.socials > .socials img {*/
-/*    transition: 200ms ease-in-out;*/
-/*}*/
-/*.socials:hover > .socials a.zoom {*/
-/*    transform: scale(2);*/
-/*}*/
-
+.socials .img {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+}
 .socials .img:hover {
-    -webkit-transform:
-            scale(1.5)
-            rotate(0.01deg);
     transform:
-            scale(1.8)
-            rotate(0.01deg);
+            scale(1.8);
 }
