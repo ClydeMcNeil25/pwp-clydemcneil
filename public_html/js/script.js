@@ -22,3 +22,16 @@ window.addEventListener('scroll', function(){
 // window.addEventListener('click', function(e){
 //
 // })
+
+// $(document).ready(function(){
+//   let url = $("myVideo1").attr('src');
+//   $("#motionModal1").on('hide.bs.modal', function() {
+//     $("#myVideo1").attr('src', '');
+//   });
+//   $("#motionModal1").on('show.bs.modal', function() {
+//   $("#myVideo1").attr('src', url);
+//   });
+// });
+
+
+/* Contact Form */

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <title>CMC2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
@@ -589,6 +589,7 @@
                     </div>
                     <div class="modal-body">
                         <img src="./media/resume.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                        <button type="button" class="my-resume btn btn-dark align-items-center mt-4 text-white"><a href="./media/myresume.pdf" target="_blank">Download</a></button>
                     </div>
                     <div class="modal-footer border-0 rounded-pill mt-5">
                         <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
@@ -602,28 +603,28 @@
         <!-- Contact Title -->
         <h1 class="contact-title text-center mb-3">Let's Connect</h1>
         <!-- EMail Form -->
-        <form class="container text-start p-2 w-75">
-            <!-- First/Last Name -->
+        <form action="./apis" id="contact" method="post" novalidate class="container text-start p-2 w-75">
+            <!-- First & Last Name -->
             <div class="row d-flex">
                 <div class="col-md-6 vstack mb-2">
-                    <label class="form-label" for="firstname">First Name</label>
-                    <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input class="form-control" id="firstname" type="text" name="firstname" placeholder="First Name">
                 </div>
                 <div class="col-md-6 vstack mb-2">
-                    <label class="form-label" for="lastname">Last Name</label>
-                    <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input class="form-control" id="lastname" type="text" name="lastname" placeholder="Last Name">
                 </div>
             </div>
-            <!-- Email -->
+            <!-- Email & Dropdown -->
             <div class="row d-flex mb-2">
                 <div class="col-md-6">
                     <label for="email" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input class="form-control" id="email" type="email" placeholder="name@example.com">
                 </div>
                 <!-- Dropdown -->
                 <div class="col-md-6 vstack">
-                    <label class="form-label" for="category">Choose Topic</label>
-                    <select class="form-control" name="category" id="category">
+                    <label for="category" class="form-label">Choose Topic</label>
+                    <select class="form-control" id="category" name="category">
                         <option value="blank" class="text-white">Choose Topic</option>
                         <option value="employment">Employment</option>
                         <option value="graphic-design">Graphic Design</option>
@@ -639,7 +640,7 @@
             <!-- Message/Text Area -->
             <div class="text-start mb-5">
                 <label for="text-area" class="form-label">Message</label>
-                <textarea class="form-control" id="text-area" rows="3" maxlength="1000" placeholder="1000 Character Max"></textarea>
+                <textarea class="form-control" id="text-area" required rows="3" maxlength="1000" placeholder="1000 Character Max"></textarea>
             </div>
             <!-- Submit Button -->
             <div class="container-fluid lead d-flex justify-content-center">
@@ -647,6 +648,7 @@
             </div>
             <br>
         </form>
+        <div id="output-area"></div>
         <!-- Social Site Image Links -->
         <div class="socials text-center">
             <a href="https://www.artstation.com/malymal"><img src="./media/artstation.png" class="img me-1 shaddow-lg" alt="github" width="40" height="40"></a>
@@ -658,7 +660,7 @@
         </div>
     </section>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>

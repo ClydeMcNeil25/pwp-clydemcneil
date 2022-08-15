@@ -120,7 +120,7 @@ header::before {
 
 /* Contact Form */
 .contact-form {
-    background-image: url("./media/signature.png");
+    background-image: url("../media/signature.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -157,11 +157,16 @@ a.nav-link:hover {
 }
 
 /* Hover Effect for Resume and Submit Buttons */
-.resume-button, .submit-button {
+.resume-button, .submit-button, .my-resume {
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
 }
+.my-resume:hover {
+    transition-duration: 2s;
+    background: linear-gradient(45deg, #070066, #E70066);
+}
 .resume-button:hover {
+    transition-duration: 2s;
     background: linear-gradient(45deg, #070066, #E70066);
 }
 .submit-button:hover {
@@ -169,7 +174,7 @@ a.nav-link:hover {
     background: linear-gradient(45deg, #070066, #E70066);
 }
 
-/* Hover Effect for Social Button/Image Links */
+/* Hover Effect for Social Buttons/Image Links to enlarge */
 .socials .img {
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
