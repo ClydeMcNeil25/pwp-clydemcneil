@@ -16,3 +16,9 @@ window.addEventListener('scroll', function(){
   midground.style.top = value * 0.20 + 'px';
   foreground.style.top = value * -0.15 + 'px';
 });
+
+// let pause = document.getElementById('myVideo1');
+//
+// window.addEventListener('click', function(e){
+//
+// })
