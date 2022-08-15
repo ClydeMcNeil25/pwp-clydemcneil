@@ -31,6 +31,7 @@ const validation = [
 ]
 function handlePostRequest(request: Request, response: Response) {
   response.append("Content-Type", "text/html")
+  response.append("Access-Control-Allow-Origin", "*")
   // the names listed in the HTML & JS files respectively
   const {firstname, lastname, message, category, email} = request.body
 
