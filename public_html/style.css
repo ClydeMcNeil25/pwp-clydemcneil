@@ -1,6 +1,6 @@
 /* This affects the text for mobile view mode*/
 @media screen and (max-width: 768px) {
-    .nav-link, h1, h2, h3, H4, p, strong, dd, i, ul, li .about-para .container-fluid img {
+    .nav-link, h1, h2, h3, H4, p, strong, dd, i, ul, li .about-para .container-fluid img, .stats {
         font-size: calc(12px + 1vh); !important;
         margin: 0 !important;
     }
