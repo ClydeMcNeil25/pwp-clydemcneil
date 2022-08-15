@@ -1,6 +1,6 @@
 /* This affects the text for mobile view mode*/
 @media screen and (max-width: 768px) {
-    .nav-link, h1, h2, h3, H4, p, strong, dd, i, ul, li .about-para .container-fluid img, .stats {
+    .nav-link, h1, h2, h3, H4, p, strong, dd, i, ul, li .about-para .container-fluid img, .stats, a {
         font-size: calc(12px + 1vh); !important;
         margin: 0 !important;
     }
@@ -96,7 +96,7 @@ header::before {
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 /* Gradient Effect for the respective elements listed below */
-.about-me, .navbar, .card, li.list-group-item, .submit-button, .modal-header, .modal-footer, .resume-button {
+.about-me, .navbar, .card, li.list-group-item, .submit-button, .modal-header, .modal-footer, .resume-button, .my-resume {
     background-image: linear-gradient(
             45deg,
             hsl(240deg 100% 20%) 0%,
