@@ -4,7 +4,7 @@ import { check, validationResult } from 'express-validator'
 const express = require('express')
 const morgan = require('morgan')
 const bodyParser = require("body-parser")
-const Recaptcha = require('express=recaptcha').RecaptchaV2
+const Recaptcha = require('express-recaptcha').RecaptchaV2
 const formData = require("form-data")
 const Mailgun = require("mailgun.js")
 require('dotenv').config()
@@ -24,7 +24,7 @@ const validation = [
   check("firstname", "A valid name is required.").not().isEmpty().trim().escape(),
   check("lastname", "A valid name is required.").not().isEmpty().trim().escape(),
   check("email", "Please provide a valid email.").isEmail(),
-  check("category").optional(),
+  check("category", "Please provide category").isIn(['Choose Topic', 'Employment', 'Graphic Design', 'Web Development', 'UX/UI Design', 'Video Production', 'Audio Production', 'Collaborate', 'Other']),
   check("message", "A message must be shorter than 1000 characters.").trim().escape().isLength({min:1, max:1000})
 ]
 const handleGetRequest = ((request: Request, response: Response)=> {
