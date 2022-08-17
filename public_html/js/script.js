@@ -17,24 +17,29 @@ window.addEventListener('scroll', function(){
   foreground.style.top = value * -0.15 + 'px';
 });
 
-// let pause = document.getElementById('myVideo1');
-//
-// window.addEventListener('click', function(e){
-//
-// })
+// For Modals with Video on Hide, video will stop
+//Video Production Modals
+$('#motionModal1').on('hide.bs.modal', () => {
+  $('#myVideo1').attr('src', $('#myVideo1').attr('src'));
+});
+$('#motionModal2').on('hide.bs.modal', () => {
+  $('#myVideo2').attr('src', $('#myVideo2').attr('src'));
+});
+$('#motionModal3').on('hide.bs.modal', () => {
+  $('#myVideo3').attr('src', $('#myVideo3').attr('src'));
+});
+//Audio Production Modals
+$('#audioModal1').on('hide.bs.modal', () => {
+  $('#myAudio1').attr('src', $('#myAudio1').attr('src'));
+});
+$('#audioModal2').on('hide.bs.modal', () => {
+  $('#myAudio2').attr('src', $('#myAudio2').attr('src'));
+});
+$('#audioModal3').on('hide.bs.modal', () => {
+  $('#myAudio3').attr('src', $('#myAudio3').attr('src'));
+});
 
-// $(document).ready(function(){
-//   let url = $("myVideo1").attr('src');
-//   $("#motionModal1").on('hide.bs.modal', function() {
-//     $("#myVideo1").attr('src', '');
-//   });
-//   $("#motionModal1").on('show.bs.modal', function() {
-//   $("#myVideo1").attr('src', url);
-//   });
-// });
-
-
-/* Contact Form */
+// Contact Form
 $(document).ready(function(){
   $('#contact').validate({
     debug: true,
