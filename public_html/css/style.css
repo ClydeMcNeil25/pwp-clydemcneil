@@ -22,6 +22,14 @@
         margin: 0 !important;
     }
 }
+/* Navbar Mobile Menu Color */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
 
 /* Properties for all of the buttons */
 div div button {
@@ -106,10 +114,35 @@ header::before {
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
+
+/* Info cards in Portfolio Background */
+.info1 {
+    background-image: linear-gradient(
+        45deg, #4760ff, #0DCCFF);
+}
+.info2 {
+    background-image: linear-gradient(
+            45deg, #ab00ff, #ff00b6);
+}
+.info3 {
+    background-image: linear-gradient(
+            45deg, #5808fb, #9929ea);
+}
+.info4 {
+    background-image: linear-gradient(
+            45deg, #0100d9, #7600b2);
+}
+.info5 {
+    background-image: linear-gradient(
+            45deg, #01d1ff, #f501fe);
+}
+
 /* Gradient Effect for the respective elements listed below */
 .about-me,
 .navbar,
-.card,
+.soft,
+.edu,
+.cert,
 li.list-group-item,
 .submit-button,
 .modal-header,
@@ -118,19 +151,7 @@ li.list-group-item,
 .my-resume {
     text-decoration: none;
     background-image: linear-gradient(
-            45deg,
-            hsl(240deg 100% 20%) 0%,
-            hsl(252deg 100% 20%) 10%,
-            hsl(260deg 100% 20%) 20%,
-            hsl(265deg 100% 20%) 30%,
-            hsl(270deg 100% 20%) 40%,
-            hsl(274deg 100% 20%) 50%,
-            hsl(286deg 100% 20%) 60%,
-            hsl(297deg 100% 20%) 70%,
-            hsl(307deg 100% 23%) 80%,
-            hsl(314deg 100% 26%) 90%,
-            hsl(319deg 100% 29%) 100%
-    );
+            45deg, #720067, #000967);
 }
 
 /* Card Properties in SOFTEDUCERT Section */
@@ -183,15 +204,15 @@ a.nav-link:hover {
 }
 .my-resume:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #070066, #E70066);
+    background: linear-gradient(45deg, #180067, #720067);
 }
 .resume-button:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #070066, #E70066);
+    background: linear-gradient(45deg, #180067, #720067);
 }
 .submit-button:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #070066, #E70066);
+    background: linear-gradient(45deg, #180067, #720067);
 }
 
 /* Hover Effect for Social Buttons/Image Links to enlarge */
