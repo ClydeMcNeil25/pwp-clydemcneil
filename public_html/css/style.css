@@ -152,7 +152,7 @@ li.list-group-item,
 .my-resume {
     text-decoration: none;
     background-image: linear-gradient(
-            45deg, #720067, #000967);
+            45deg, #000967, #720067);
 }
 
 /* Card Properties in SOFTEDUCERT Section */
@@ -205,15 +205,15 @@ a.nav-link:hover {
 }
 .my-resume:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #180067, #720067);
+    background: linear-gradient(45deg, #720067, #180067);
 }
 .resume-button:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #180067, #720067);
+    background: linear-gradient(45deg, #720067, #180067);
 }
 .submit-button:hover {
     transition-duration: 2s;
-    background: linear-gradient(45deg, #180067, #720067);
+    background: linear-gradient(45deg, #720067, #180067);
 }
 
 /* Hover Effect for Social Buttons/Image Links to enlarge */
