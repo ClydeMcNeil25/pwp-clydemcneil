@@ -68,7 +68,8 @@ function handlePostRequest(request: Request, response: Response) {
 const indexRoute = express.Router()
 
 indexRoute.route('/')
-  .get(handleGetRequest).post(recaptcha.middleware.verify, validation, handlePostRequest)
+  .get(handleGetRequest)
+  .post(recaptcha.middleware.verify, validation, handlePostRequest)
 
 app.use('/apis', indexRoute)
 
