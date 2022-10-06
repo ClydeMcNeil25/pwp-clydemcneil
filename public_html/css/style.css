@@ -176,7 +176,7 @@ a.nav-link:hover {
     background: white;
     color: black;
 }
-/* Hover Effect for Thumbnails in Portfolio */
+ /*Hover Effect for Thumbnails in Portfolio */
 .img-wrapper.thumb {
     position: relative;
     overflow: hidden;
@@ -224,4 +224,8 @@ a.nav-link:hover {
 .socials .img:hover {
     transform:
             scale(1.8);
+}
+
+.certCard {
+    width: 18rem;
 }
