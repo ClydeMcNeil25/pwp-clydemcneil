@@ -1,4 +1,4 @@
-# pwp-clydemcneil
+# Clyde A. McNeil II - PWP
 
 ### **This is a Personal Website Portfolio**
 
