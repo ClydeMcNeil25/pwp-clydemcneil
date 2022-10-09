@@ -46,41 +46,12 @@
 <section class="about-me border-bottom py-5" id="about-me">
     <div class="container lead text-center">
         <h1 class="mb-3">About Me</h1>
-        <p class="about-para">Hello, I'm <b>Clyde</b> I've been in fascination with everything that has to do with <b>technology</b> and <b>art</b> all of my life. I am currently serving in the United States Air Force, going on now for 21 years and quickly approaching retirement. I'd consider myself having the <b>thirst for knowledge</b> and <b>always strives for success</b>. I'm eagerly ready for my next chapter of my life entering into the tech industry. As a <b>Web Developer</b>, I am <b>passionate</b> about <b>solving my clients problems</b> by <b>bringing their ideas to life</b>. Lastly, as a web developer, I love bringing in all of my <b>skill sets</b> in creating meaningful products that <b>bring people together</b>.
-        </p>
+        <p class="about-para">Hello, I'm <b>Clyde</b> I've been in fascination with everything that has to do with <b>technology</b> and <b>art</b> all of my life. I am currently serving in the United States Air Force, going on now for 21 years and quickly approaching retirement. I'd consider myself having the <b>thirst for knowledge</b> and <b>always strives for success</b>. As a <b>Software Developer</b> and <b>Visual Designer</b>, I am <b>passionate</b> about <b>solving my clients problems</b> by <b>bringing their ideas to life</b>. Lastly, I love bringing in all of my <b>skill sets</b> in creating meaningful products that <b>bring people together</b>.</p>
     </div>
 </section>
 <!-- Soft Skills/Education/Certifications -->
 <section class="softeducert container pt-5 d-flex justify-content-center">
     <div class="row text-center d-flex justify-content-center">
-        <div class="col-sm-4 d-flex justify-content-center pb-5 certCard">
-            <div class="soft card px-3 w-100 shadow">
-                <div class="card-body text-white">
-                    <h4 class="card-title border-bottom border-white">Soft Skills</h4>
-                    <p class="card-text pt-1">
-                        Problem Solver
-                        <br>
-                        Attention to Detail
-                        <br>
-                        Resourceful
-                        <br>
-                        Adaptive
-                        <br>
-                        Team Player
-                        <br>
-                        Empathy
-                        <br>
-                        Social Skills
-                        <br>
-                        Imaginative
-                        <br>
-                        Resilient
-                        <br>
-                        Self-Motivating
-                    </p>
-                </div>
-            </div>
-        </div>
         <div class="col-sm-4 d-flex justify-content-center pb-5 certCard">
             <div class="edu card shadow">
                 <div class="card-body text-white">
@@ -98,54 +69,58 @@
                 </div>
             </div>
         </div>
+        <!-- Resume Modal -->
+        <div class="col-sm-4 d-flex align-items-center pb-5 certCard">
+            <div class="img-wrapper d-flex justify-content-center col-md-12 p-5">
+                <button type="button" class="resume-button img-thumbnailblur zoom lead rounded text-white p-2" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                    <img src="./media/resumeImage.jpg" class="img-thumbnail shadow zoom" alt="Thumb" width="270rem">
+                </button>
+            </div>
+            <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content border-0 bg-transparent">
+                        <div class="modal-header rounded-pill mb-5 border-0">
+                            <h5 class="modal-title" id="resumeLabel">My Resume</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex align-items-center vstack p-0">
+                            <img src="./media/resume1.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                        </div>
+                        <div class="modal-body d-flex align-items-center vstack p-0">
+                            <img src="./media/resume2.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
+                            <!-- Resume Download Button -->
+                            <a class="prototype download border border-white rounded-2 lead text-center text-white p-1 w-40 my-5 fs-5" href="./media/myresume.pdf" target="_blank">Download</a>
+                        </div>
+                        <div class="modal-footer border-0 rounded-pill">
+                            <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-4 d-flex justify-content-center pb-5 certCard">
             <div class="cert card shadow">
                 <div class="card-body w-100 text-white">
                     <h4 class="card-title border-bottom border-white">Certifications</h4>
                     <p class="card-text pt-1">
-                        Deep Dive Coding Bootcamp Full Stack Web Developer
-                    <hr class="m-0">
-                    Google UX Design Professional Certification
-                    <hr class="m-0">
-                    Meta Front End Web Development
-                    <hr class="m-0">
-                    CalArts Foundations of Graphic Design
-                    <hr class="m-0">
-                    Meta Social Media Digital Marketing
+                        <a href="https://certifications.cnm.edu/certificate/8e9c194e475e54f3888f3343c382b0cd?fbclid=IwAR2wik7Bwqmhn7FIIyn3NMeKGOsXAO2deSNv298FEOBhDTAz0m77Y-bopmA" target="_blank" class="text-white">Deep Dive Full Stack Web Developer</a>
+                    <hr class="my-1">
+                    <a href="https://www.credly.com/badges/28e00479-6842-45c0-99e1-4873a0a22c21/public_url" target="_blank" class="text-white">Google UX Design Professional Certification</a>
+                    <hr class="my-1">
+                    <a href="https://coursera.org/share/48dfd00655fc2ad8cb86d525f93f266f" target="_blank" class="text-white">Meta Front End Web Development</a>
+                    <hr class="my-1">
+                    <a href="https://coursera.org/share/b6d2b72ccd8a91117853f65b28978f12" target="_blank" class="text-white">CalArts Foundations of Graphic Design</a>
+                    <hr class="my-1">
+                    <a href="https://coursera.org/share/5e55c189701657c28559aab260ec7a6d" target="_blank" class="text-white">Meta Social Media Digital Marketing</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<div class="container-fluid lead d-flex justify-content-center col-md-12 pb-5">
-    <button type="button" class="resume-button zoom lead rounded border border-dark text-white p-2" data-bs-toggle="modal" data-bs-target="#resumeModal">My Resume
-    </button>
-</div>
-<div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content border-0 bg-transparent">
-            <div class="modal-header rounded-pill mb-5 border-0">
-                <h5 class="modal-title" id="resumeLabel">My Resume</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body d-flex align-items-center vstack p-0">
-                <img src="./media/resume1.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
-            </div>
-            <div class="modal-body d-flex align-items-center vstack p-0">
-                <img src="./media/resume2.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="HTML">
-                <!-- Resume Download Button -->
-                <a class="prototype download border border-white rounded-2 lead text-center text-white p-1 w-40 my-5 fs-5" href="./media/myresume.pdf" target="_blank">Download</a>
-            </div>
-            <div class="modal-footer border-0 rounded-pill">
-                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
 <!--Portfolio-->
-<h1 class="text-center" id="portfolio">Web Developer</h1>
-<section class="portfolio py-5 ">
+<section class="portfolio py-5" id="portfolio">
+    <h1 class="text-center pb-5">Web Development</h1>
     <!--Web Development-->
     <div class="web pb-5">
         <div class="container">
@@ -225,7 +200,7 @@
         </div>
     </div>
     <!--UX/UI-->
-    <h1 class="text-center">UX/UI Designer</h1>
+    <h1 class="text-center">UX/UI Design</h1>
     <div class="ux py-5">
         <div class="container">
             <div class="row">
@@ -302,92 +277,455 @@
         </div>
     </div>
     <!--Graphic Design/Video Production/Audio Production-->
-    <h1 class="text-center">Graphic Design | Video Production | Audio Production</h1>
+    <h1 class="text-center">Graphic Design</h1>
     <div class="py-5">
         <div class="container">
             <div class="row">
-                <!--Graphic Design-->
+                <!-- IT Factor -->
                 <div class="img-wrapper col-md-4">
                     <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#graphicsModal1">
-                        <img src="https://live.staticflickr.com/65535/52413176324_7617754eee_o.jpg" id="graphics" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
+                        <img src="https://live.staticflickr.com/65535/52414611889_d9297d06d8_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
                     </button>
                 </div>
                 <!-- Modal -->
-                <!-- Twitch Emote Modal -->
                 <div class="modal fade" id="graphicsModal1" tabindex="-1" aria-labelledby="graphicsLabel1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="graphicsLabel1">Twitch Emotes</h5>
+                                <h5 class="modal-title" id="graphicsLabel1">IT Factor: Breakdown</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <img src="https://live.staticflickr.com/65535/52412380972_7ac0235f99_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Twitch-Emotes">
+                                <img src="https://live.staticflickr.com/65535/52415757148_1deb959076_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Twitch-Emotes">
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Logos</button>
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Next</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Logo Modal -->
                 <div class="modal fade" id="graphicsModal2" tabindex="-1" aria-labelledby="graphicsLabel2" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header border-0 rounded-pill mb-5">
-                                <h5 class="modal-title" id="graphicsLabel2">Logo Design</h5>
+                                <h5 class="modal-title" id="graphicsLabel2">IT Factor: Instagram Promo Video 01</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                    <iframe id="myGraphics1" class="shadow rounded-5 bg-dark"  src="https://www.youtube.com/embed/axIqDJkcuqU" title="It Factor IG Promo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal1" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="graphicsModal3" tabindex="-1" aria-labelledby="graphicsLabel3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="graphicsLabel3">IT Factor: Instagram Promo Video 02</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <iframe id="myVideo2" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/CsAjspgsNuA?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="graphicsModal4" tabindex="-1" aria-labelledby="graphicsLabel4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="graphicsLabel4">IT Factor: Social Media Promo Portrait</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52414784092_be89585f7c_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Portrait">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal5" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="graphicsModal5" tabindex="-1" aria-labelledby="graphicsLabel5" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="graphicsLabel5">IT Factor: Logo Design for Golfing Line</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <img src="https://live.staticflickr.com/65535/52415361691_e0c29f4411_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Logo Art">
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#graphicsModal4" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Rebranding-->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#rebrandingModal01">
+                        <img src="https://live.staticflickr.com/65535/52415389813_073dae6a4c_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="rebrandingModal01" tabindex="-1" aria-labelledby="rebranding01Label1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title">Rebranding: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415844390_92025e8ef2_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Rebranding01">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal2" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="rebrandingModal2" tabindex="-1" aria-labelledby="rebranding01Label2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="rebrandingLabel2">Rebranding: Graphic Overlay</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52414882407_2597de0c12_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Rebranding02">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal1" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal3" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="rebrandingModal3" tabindex="-1" aria-labelledby="rebranding01Label3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="rebrandingLabel3">Rebranding: Graphic Overlay</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415930528_9ec956e125_o.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Rebranding03">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="rebrandingModal4" tabindex="-1" aria-labelledby="rebranding01Label4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="rebrandingLabel4">Rebranding: Design Package</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415741894_36a6246aaa_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Rebranding04">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#rebrandingModal3" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Brand Establishing -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#brandingModal1">
+                        <img src="https://live.staticflickr.com/65535/52415179324_0f513e96dc_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="brandingModal1" tabindex="-1" aria-labelledby="brandingLabel1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="brandingLabel1">Brand Establishing: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415761944_14332a8b49_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Branding01">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#brandingModal2" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="brandingModal2" tabindex="-1" aria-labelledby="brandingLabel2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="brandingLabel2">Brand Establishing: Logo Design</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52414975122_3c2fc49db9_o.png" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Branding02">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#brandingModal1" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#brandingModal3" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="brandingModal3" tabindex="-1" aria-labelledby="brandingLabel3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="brandingLabel3">Brand Establishing: Merchandise</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415935590_21cc257f22_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Branding03">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#brandingModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#brandingModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="brandingModal4" tabindex="-1" aria-labelledby="brandingLabel4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="brandingLabel4">Brand Establishing: Social Media Group 2.5K Members</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52414975082_88a047ec32_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Branding01">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#brandingModal3" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- GPX Logos -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#gpxModal1">
+                        <img src="https://live.staticflickr.com/65535/52415194069_e66291b7a5_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="gpxModal1" tabindex="-1" aria-labelledby="gpxLabel1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="gpxLabel1">Logo Designs: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415587546_b411b19fbf_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Logos">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#gpxModal2" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="gpxModal2" tabindex="-1" aria-labelledby="gpxLabel2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header border-0 rounded-pill mb-5">
+                                <h5 class="modal-title" id="gpxLabel2">Logo Designs</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <img src="https://live.staticflickr.com/65535/52413406303_9fb85ce48d_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Logos">
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal1" data-bs-toggle="modal">Previous</button>
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Comics</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Comic Modal -->
-                <div class="modal fade" id="graphicsModal3" tabindex="-1" aria-labelledby="graphicsLabel3" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content border-0 bg-transparent">
-                            <div class="modal-header border rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="graphicsLabel3">Comics TGA (Still in Development)</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://live.staticflickr.com/65535/52413176394_208322271e_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Comics">
-                            </div>
-                            <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal2" data-bs-toggle="modal">Previous</button>
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal4" data-bs-toggle="modal">3D</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 3D Design Modal -->
-                <div class="modal fade" id="graphicsModal4" tabindex="-1" aria-labelledby="graphicsLabel4" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content border-0 bg-transparent">
-                            <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="graphicsLabel4">3D Projects</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="https://live.staticflickr.com/65535/52412890486_14f44955c5_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="3D Sculpting">
-                            </div>
-                            <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#graphicsModal3" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#gpxModal1" data-bs-toggle="modal">Previous</button>
                                 <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Video Productions-->
+                <!-- Illustrations/Animations -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#iaModal01">
+                        <img src="https://live.staticflickr.com/65535/52415439573_3a9d11bfd0_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="customTees" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="iaModal01" tabindex="-1" aria-labelledby="ia01Label1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="rebrandingLabel1">Illustrations/Animations: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <img src="https://live.staticflickr.com/65535/52416095833_cfcdf69af5_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Illustrations and Animations Modal">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#iaModal2" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="iaModal2" tabindex="-1" aria-labelledby="ia01Label2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="iaLabel2">Illustrations/Animations: Emotes</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="https://live.staticflickr.com/65535/52412380972_7ac0235f99_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Illustrations and Animations Modal">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#iaModal1" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#iaModal3" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="iaModal3" tabindex="-1" aria-labelledby="ia01Label3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="iaLabel3">Illustrations/Animations: Animated 01</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="./media/fire.gif" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Illustrations and Animations Modal">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#iaModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#iaModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="iaModal4" tabindex="-1" aria-labelledby="ia01Label4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="iaLabel4">Illustrations/Animations: Animated 02</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="./media/rage.gif" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Illustrations and Animations Modal">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#iaModal2" data-bs-toggle="modal">Previous</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2D | 3D -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#twoThreeModal1">
+                        <img src="https://live.staticflickr.com/65535/52415517378_4e012decc5_o.jpg" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="twoThree" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="twoThreeModal1" tabindex="-1" aria-labelledby="twoThreeLabel1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="2d3dLabel1">2D | 3D Design: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52415071957_d93232bef7_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="twoThree">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal2" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="twoThreeModal2" tabindex="-1" aria-labelledby="twoThreeLabel2" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title">2D | 3D Design: Character and World Building Concepts</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://live.staticflickr.com/65535/52412890486_14f44955c5_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="twoThree">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal1" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal3" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="twoThreeModal3" tabindex="-1" aria-labelledby="twoThreeLabel3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title">2D | 3D Design: World Building Concept</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <iframe id="myTwoThree1" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/U90TNx85yL4?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="twoThreeModal4" tabindex="-1" aria-labelledby="twoThreeLabel4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="twoThreeModal4">2D | 3D Design: Character Design Concept</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <iframe id="myTwoThree2" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/-_w8dQVaxAs?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#twoThreeModal3" data-bs-toggle="modal">Previous</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Motion Graphics-->
+    <h1 class="text-center">Motion Graphics</h1>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <!--Hall Insurance Commercial-->
                 <div class="img-wrapper col-md-4">
                     <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#motionModal1">
-                        <img src="https://live.staticflickr.com/65535/52413333035_23af650c8e_o.jpg" id="motion" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                        <img src="https://live.staticflickr.com/65535/52415595340_b61b198ee2_o.jpg" id="motion" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
                     </button>
                 </div>
                 <!-- Modal -->
@@ -395,14 +733,14 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="motionLabel1">Hall Insurance Commercial</h5>
+                                <h5 class="modal-title" id="motionLabel1">Hall Insurance Commercial: Breakdown</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
-                                <iframe id="myVideo1" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
+                                <img src="https://live.staticflickr.com/65535/52416051453_2a3d389f46_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#motionModal2" data-bs-toggle="modal">Previous</button>
                                 <button class="btn btn-dark" data-bs-target="#motionModal2" data-bs-toggle="modal">Next</button>
                             </div>
                         </div>
@@ -412,52 +750,124 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="motionLabel2">Intro Concept</h5>
+                                <h5 class="modal-title" id="motionLabel2">Hall Insurance Commercial</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
-                                <iframe id="myVideo2" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/K1y1GBs3FcY?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe id="myVideo1" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/5obInUtggvc?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
                                 <button class="btn btn-dark" data-bs-target="#motionModal1" data-bs-toggle="modal">Previous</button>
-                                <button class="btn btn-dark" data-bs-target="#motionModal3" data-bs-toggle="modal">Next</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Podcast Intro -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#motionModal3">
+                        <img src="https://live.staticflickr.com/65535/52415694543_db26efc70e_o.jpg" id="motion" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
                 <div class="modal fade" id="motionModal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="motionLabel3">Gifee Coffee Promo Video</h5>
+                                <h5 class="modal-title" id="motionLabel3">Podcast: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <img src="https://live.staticflickr.com/65535/52415542146_f4dd7d121f_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#motionModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="motionModal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="motionLabel4">Podcast Post-Credit Scene</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <iframe id="myVideo4" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/K1y1GBs3FcY?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#motionModal3" data-bs-toggle="modal">Previous</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coffee Promo Video -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#motionModal5">
+                        <img src="https://live.staticflickr.com/65535/52415633830_45c4223ab9_o.jpg" id="motion" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="motionModal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="motionLabel5">Gifee Coffee Promo Video: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <img src="https://live.staticflickr.com/65535/52415026782_98cbcd689a_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#motionModal6" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="motionModal6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="motionLabel6">Gifee Coffee Promo Video</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
                                 <iframe id="myVideo3" class="shadow rounded-5 bg-dark" src="https://www.youtube.com/embed/7QN_98Gw2Ig?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#motionModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#motionModal5" data-bs-toggle="modal">Previous</button>
                                 <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!--Audio Production-->
+    <h1 class="text-center">Audio Production</h1>
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Dark Waters -->
                 <div class="img-wrapper col-md-4">
                     <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#audioModal1">
-                        <img src="https://live.staticflickr.com/65535/52413406378_48e5952db6_o.jpg" id="audio" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                        <img src="https://live.staticflickr.com/65535/52415718083_3d1df8325f_o.jpg" id="audio" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
                     </button>
                 </div>
-                <!-- Audio Production Modal -->
+                <!-- Modal -->
                 <div class="modal fade" id="audioModal1" tabindex="-1" aria-labelledby="audioLabel1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="audioLabel1">"Dark Waters" Produced by Clyde "Maly" McNeil</h5>
+                                <h5 class="modal-title" id="audioLabel1">Dark Waters: Breakdown</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
-                                <iframe id="myAudio1" class="shadow-lg rounded-5" src="https://www.youtube.com/embed/uMKk1v3NLuk?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
+                                <img src="https://live.staticflickr.com/65535/52416004340_61b3f8ed54_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
                                 <button class="btn btn-dark" data-bs-target="#audioModal2" data-bs-toggle="modal">Next</button>
@@ -469,31 +879,95 @@
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="audioLabel2">"You Know What It Is" Produced by Clyde "Maly" McNeil</h5>
+                                <h5 class="modal-title" id="audioLabel2">"Dark Waters" Produced by Clyde "Maly" McNeil</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <iframe id="myAudio1" class="shadow-lg rounded-5" src="https://www.youtube.com/embed/uMKk1v3NLuk?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#audioModal1" data-bs-toggle="modal">Previous</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- You Know What It Is -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#audioModal3">
+                        <img src="https://live.staticflickr.com/65535/52415489894_89ec5111f2_o.jpg" id="audio" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="audioModal3" tabindex="-1" aria-labelledby="audioLabel3" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="audioLabel3">You Know What It Is: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <img src="https://live.staticflickr.com/65535/52415844569_8b21c336ff_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#audioModal4" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="audioModal4" tabindex="-1" aria-labelledby="audioLabel4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="audioLabel4">"You Know What It Is" Produced by Clyde "Maly" McNeil</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
                                 <iframe id="myAudio2" class="shadow-lg rounded-5" src="https://www.youtube.com/embed/Ma4aRdQ5X8M?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#audioModal1" data-bs-toggle="modal">Previous</button>
-                                <button class="btn btn-dark" data-bs-target="#audioModal3" data-bs-toggle="modal">Next</button>
+                                <button class="btn btn-dark" data-bs-target="#audioModal3" data-bs-toggle="modal">Previous</button>
+                                <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="audioModal3" tabindex="-1" aria-labelledby="audioLabel3" aria-hidden="true">
+                <!-- The Darkness -->
+                <div class="img-wrapper col-md-4">
+                    <button type="button" class="thumb bg-white border border-white btn-white btn-white w-100" data-bs-toggle="modal" data-bs-target="#audioModal5">
+                        <img src="https://live.staticflickr.com/65535/52414694077_8700cc29b1_o.jpg" id="audio" class="img-thumbnail shadow rounded-5 mb-5 blur zoom" alt="Motion Pro Thumb" width="960" height="540">
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="audioModal5" tabindex="-1" aria-labelledby="audioLabel5" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content border-0 bg-transparent">
                             <div class="modal-header rounded-pill mb-5 border-0">
-                                <h5 class="modal-title" id="audioLabel3">"The Darkness" Produced by Clyde "Maly" McNeil</h5>
+                                <h5 class="modal-title" id="audioLabel5">The Darkness: Breakdown</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
+                                <img src="https://live.staticflickr.com/65535/52415046997_9d32173369_o.jpg" class="img-thumbnail border-0 bg-transparent rounded-5" alt="Breakdown">
+                            </div>
+                            <div class="modal-footer border-0 rounded-pill mt-5">
+                                <button class="btn btn-dark" data-bs-target="#audioModal6" data-bs-toggle="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="audioModal6" tabindex="-1" aria-labelledby="audioLabel6" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content border-0 bg-transparent">
+                            <div class="modal-header rounded-pill mb-5 border-0">
+                                <h5 class="modal-title" id="audioLabel6">"The Darkness" Produced by Clyde "Maly" McNeil</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body ratio ratio-16x9 border-0 bg-transparent rounded-5">
                                 <iframe id="myAudio3" class="shadow-lg rounded-5" width="560" height="315" src="https://www.youtube.com/embed/MrZIHG9xRsI?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="modal-footer border-0 rounded-pill mt-5">
-                                <button class="btn btn-dark" data-bs-target="#audioModal2" data-bs-toggle="modal">Previous</button>
+                                <button class="btn btn-dark" data-bs-target="#audioModal5" data-bs-toggle="modal">Previous</button>
                                 <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>

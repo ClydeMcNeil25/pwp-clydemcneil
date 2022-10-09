@@ -38,7 +38,19 @@ $('#audioModal2').on('hide.bs.modal', () => {
 $('#audioModal3').on('hide.bs.modal', () => {
   $('#myAudio3').attr('src', $('#myAudio3').attr('src'));
 });
-
+//Graphic Design Modals
+$('#graphicsModal2').on('hide.bs.modal', () => {
+  $('#myGraphics1').attr('src', $('#myGraphics1').attr('src'));
+});
+$('#graphicsModal3').on('hide.bs.modal', () => {
+  $('#myGraphics2').attr('src', $('#myGraphics2').attr('src'));
+});
+$('#twoThreeModal3').on('hide.bs.modal', () => {
+  $('#myTwoThree1').attr('src', $('#myTwoThree1').attr('src'));
+});
+$('#twoThreeModal4').on('hide.bs.modal', () => {
+  $('#myTwoThree2').attr('src', $('#myTwoThree2').attr('src'));
+});
 // Contact Form
 $(document).ready(function(){
   $('#contact').validate({
