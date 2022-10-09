@@ -25,17 +25,22 @@ $('#motionModal1').on('hide.bs.modal', () => {
 $('#motionModal2').on('hide.bs.modal', () => {
   $('#myVideo2').attr('src', $('#myVideo2').attr('src'));
 });
-$('#motionModal3').on('hide.bs.modal', () => {
+//Podcast Post Credit Video
+$('#motionModal4').on('hide.bs.modal', () => {
+  $('#myVideo4').attr('src', $('#myVideo4').attr('src'));
+});
+//Podcast Post Credit Video
+$('#motionModal6').on('hide.bs.modal', () => {
   $('#myVideo3').attr('src', $('#myVideo3').attr('src'));
 });
 //Audio Production Modals
-$('#audioModal1').on('hide.bs.modal', () => {
+$('#audioModal2').on('hide.bs.modal', () => {
   $('#myAudio1').attr('src', $('#myAudio1').attr('src'));
 });
-$('#audioModal2').on('hide.bs.modal', () => {
+$('#audioModal4').on('hide.bs.modal', () => {
   $('#myAudio2').attr('src', $('#myAudio2').attr('src'));
 });
-$('#audioModal3').on('hide.bs.modal', () => {
+$('#audioModal6').on('hide.bs.modal', () => {
   $('#myAudio3').attr('src', $('#myAudio3').attr('src'));
 });
 //Graphic Design Modals
