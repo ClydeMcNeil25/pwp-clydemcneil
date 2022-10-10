@@ -56,6 +56,10 @@ $('#twoThreeModal3').on('hide.bs.modal', () => {
 $('#twoThreeModal4').on('hide.bs.modal', () => {
   $('#myTwoThree2').attr('src', $('#myTwoThree2').attr('src'));
 });
+//Black Streamers Promo Video Modal
+$('#brandingModal5').on('hide.bs.modal', () => {
+  $('#brandingVideo1').attr('src', $('#brandingVideo1').attr('src'));
+});
 // Contact Form
 $(document).ready(function(){
   $('#contact').validate({
